@@ -123,7 +123,7 @@ const Secret_Page_2 = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
-        <h1 className="text-2xl font-semibold text-center mb-6">Secret_Page_2</h1>
+        <h1 className="text-2xl font-semibold text-center mb-6">Secret Page 2</h1>
         {user ? (
           <div>
             <p>Your email: {user.email}</p>
